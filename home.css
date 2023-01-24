@@ -1,0 +1,34 @@
+.tomato-soup {
+    width: 300px; 
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.tacos {
+    width: 500px; 
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.butterbeer {
+    width: 500px; 
+    height: auto;
+    margin: auto;
+    display: block;
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+body {
+    background-color: rgb(209, 180, 144);
+}
+div {
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
