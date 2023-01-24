@@ -2,17 +2,29 @@
 .tomato-soup-pic {
     width: 300px; 
     height: auto;
+    margin: auto;
+    display: block;
 }
 .taco-pic {
     width: 300px;
     height:auto;
+    margin: auto;
+    display: block;
 }
+.butterbeer {
+    width: 500px;
+    height:auto;
+    margin: auto;
+    display: block;
+}
+
 /*universal for recipe pages*/
 body {
     background-color: bisque;
 }
 h1 {
     color: darkgreen;
+    text-align: center;
 }
 p {
     text-align: center;
