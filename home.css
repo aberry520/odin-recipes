@@ -1,17 +1,17 @@
 .tomato-soup {
-    width: 300px; 
+    width: 70%; 
     height: auto;
     margin: auto;
     display: block;
 }
 .tacos {
-    width: 500px; 
+    width: 80%; 
     height: auto;
     margin: auto;
     display: block;
 }
 .butterbeer {
-    width: 500px; 
+    width: 80%; 
     height: auto;
     margin: auto;
     display: block;
@@ -21,14 +21,17 @@ p {
 }
 h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 600%;
 }
 body {
     background-color: rgb(209, 180, 144);
 }
 div {
     background-color: bisque;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 10px;
+    margin: auto;
+    /*margin-left: 30%;
+    margin-right: 30%;*/
+    margin-bottom: 3%;
+    border-style: solid;
+    width: 50%;
 }
