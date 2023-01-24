@@ -1,0 +1,19 @@
+/*individual images*/
+.tomato-soup-pic {
+    width: 300px; 
+    height: auto;
+}
+.taco-pic {
+    width: 300px;
+    height:auto;
+}
+/*universal for recipe pages*/
+body {
+    background-color: bisque;
+}
+h1 {
+    color: darkgreen;
+}
+p {
+    text-align: center;
+}
