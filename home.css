@@ -1,23 +1,25 @@
 .tomato-soup {
     width: 70%; 
-    height: auto;
-    margin: auto;
-    display: block;
+    
 }
 .tacos {
     width: 80%; 
-    height: auto;
-    margin: auto;
-    display: block;
+    
 }
 .butterbeer {
     width: 80%; 
+   
+}
+img {
     height: auto;
     margin: auto;
     display: block;
+    padding: 5%;
+    padding-top: 0%;
 }
 p {
     text-align: center;
+    margin: auto;
 }
 h1 {
     text-align: center;
@@ -29,8 +31,6 @@ body {
 div {
     background-color: bisque;
     margin: auto;
-    /*margin-left: 30%;
-    margin-right: 30%;*/
     margin-bottom: 3%;
     border-style: solid;
     width: 50%;
