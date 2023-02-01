@@ -35,3 +35,11 @@ p {
     margin-top: 8px;
     margin-bottom: 4px;
 }
+.home {
+    background-color: burlywood;
+    cursor:crosshair;
+}
+.homeimg {
+    width: auto;
+    height: 100px;
+}
