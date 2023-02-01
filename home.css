@@ -12,6 +12,7 @@
 }
 img {
     height: auto;
+    
 } 
 p {
     text-align: center;
@@ -21,14 +22,34 @@ p {
     /* background-color: red; */
     height:fit-content;
     text-align: center;
+    
+}
+header {
+    /* background: url("../odin-recipes/images/Strawberry.png") no-repeat center; */
+    /* border: solid; */
+    /* height: 600px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strawberry {
+    height: 300px;
+
 }
 h1 {
-    text-align: center;
-    font-size: 600%;
+    text-align:center;;
+    font-size: 60px;
+    /* border: solid; */
+    height:auto;
+    position: absolute;
+    top: 110px
 }
 body {
-    background: url("../odin-recipes/images/berry-bg.jpg") no-repeat center center fixed;
-    background-size: cover;
+    /* background: url("../odin-recipes/images/berry.bg.jpg") no-repeat bottom; */
+    background-size: contain;
+    background-color: rgb(250,210,100);
 }
 .flex-container div {
     /* background-color: bisque; */
@@ -43,8 +64,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 .flex-container {
     display: flex;
@@ -53,5 +72,13 @@ body {
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 0px;
+}
+footer {
+    background: url("../odin-recipes/images/berry.bg.jpg") no-repeat bottom;
+    background-size: ;
+    height: 270px;
+    /* border: solid; */
+    width: 100%;
     
 }
