@@ -1,25 +1,26 @@
 .tomato-soup {
-    width: 70%; 
+    width: 20rem; 
     
 }
 .tacos {
-    width: 80%; 
+    width: 30rem; 
     
 }
 .butterbeer {
-    width: 80%; 
+    width: 30rem; 
    
 }
 img {
     height: auto;
-    margin: auto;
-    display: block;
-    padding: 5%;
-    padding-top: 0%;
-}
+} 
 p {
     text-align: center;
     margin: auto;
+}
+.flex-container div a{
+    /* background-color: red; */
+    height:fit-content;
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -28,10 +29,28 @@ h1 {
 body {
     background-color: rgb(209, 180, 144);
 }
-div {
-    background-color: bisque;
-    margin: auto;
-    margin-bottom: 3%;
-    border-style: solid;
-    width: 50%;
+.flex-container div {
+    /* background-color: bisque; */
+    margin: 1rem;
+    /* margin-bottom: 3%; */
+    /* border-style: solid; */
+    /* width: 50%; */
+    /* padding: ; */
+    /* text-align: center; */
+    /* flex: 1; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.flex-container {
+    display: flex;
+    /* border: solid; */
+    height: 500px;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
