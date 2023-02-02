@@ -20,7 +20,19 @@
 
 /*universal for recipe pages*/
 body {
-    background-color: bisque;
+    background-color: rgb(250,210,100);
+    /* background-color: bisque; */
+    /* border: solid; */
+}
+.body {
+    /* border: solid; */
+    height: fit-content;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    position: relative;
+    padding: 5%;
 }
 h1 {
     color: darkgreen;
@@ -35,11 +47,51 @@ p {
     margin-top: 8px;
     margin-bottom: 4px;
 }
+/* button */
 .home {
     background-color: burlywood;
-    cursor:crosshair;
+    /* cursor:crosshair; */
+    width: 100px;
+       
 }
 .homeimg {
     width: auto;
-    height: 100px;
+    height: 20px;
+}
+nav {
+    display: flex;
+    justify-content: end;
+}
+/* header */
+.title {
+    /* background: url("../odin-recipes/images/Strawberry.png") no-repeat center; */
+    /* border: solid; */
+    /* height: 600px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strawberry {
+    height: 300px;
+
+}
+.header {
+    text-align:center;;
+    font-size: 60px;
+    /* border: solid; */
+    height:auto;
+    position: absolute;
+    top: 110px
+}
+/* footer */
+footer {
+    background: url("../images/berry.bg.jpg") no-repeat bottom;
+    height: 270px;
+    /* border: solid; */
+    width: 100%;
+    /* position:absolute;
+    bottom: auto; */
+   
 }
